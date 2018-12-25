@@ -20,6 +20,8 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
+client.user.setGame(`By SHADOW | 1play  `,"http://twitch.tv/SHADOW")
+
 const prefix = "1";
 /////////////////////////
 ////////////////////////
@@ -387,6 +389,5 @@ client.on('message', message => {
       message.channel.send(helpEmbed);
     }
 });
-client.user.setGame(`By SHADOW | 1play & `,"http://twitch.tv/SHADOW")
 
 client.login(process.env.BOT_TOKEN);
