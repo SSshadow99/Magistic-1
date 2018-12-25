@@ -387,5 +387,6 @@ client.on('message', message => {
       message.channel.send(helpEmbed);
     }
 });
+client.user.setGame(`By SHADOW | 1play & `,"http://twitch.tv/SHADOW")
 
 client.login(process.env.BOT_TOKEN);
