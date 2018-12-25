@@ -20,7 +20,6 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-client.user.setGame(`By SHADOW | 1play  `,"http://twitch.tv/SHADOW")
 
 const prefix = "1";
 /////////////////////////
